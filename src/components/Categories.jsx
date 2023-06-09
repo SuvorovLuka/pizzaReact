@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Categories() {
-  const [activeId, setactiveId] = React.useState(1);
+  const [activeId, setactiveId] = React.useState(0);
 
   const categoiries = [
     'Все',
