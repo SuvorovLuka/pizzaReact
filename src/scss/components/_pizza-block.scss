@@ -6,6 +6,11 @@
   margin-bottom: 65px;
   transition: all 0.2s ease-in-out;
 
+  &--wraper{
+    display: flex;
+    justify-content: center;
+  }
+
   &:hover {
     transform: scale(1.03);
   }
